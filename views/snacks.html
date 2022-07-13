@@ -8,19 +8,19 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-------------Mi css------------------->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/style.css">
 
   </head>
   <body>
-    <!------------inicia nav--------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-nav" id="botonera">
+       <!------------inicia nav--------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-nav">
   <div class="container-fluid">
-    
-    <a class="navbar-brand"></a>
-    <a href="../index.html">
+      <a href="../index.html">
       <img src="../img/logo_sugar.png" alt="logo de Sugar Rush Store">
+      </a>  
       
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,115 +50,156 @@
   </div>
 </nav>   
      <!------------end nav--------------->
-          <!------------incia carrusel--------------->
+     <!------------incia carrusel--------------->
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../img/b_chee.png" class="d-block w-100" alt="imagen de cheetos">
+      <img src="../img/snacks.png" class="d-block w-100" alt="Mujer con paleta de dulce">
     </div>
     <div class="carousel-item">
-      <img src="../img/b_choc.png" class="d-block w-100" alt="imagen de chocolates">
+      <img src="../img/b_gummies.png" class="d-block w-100" alt="niña con paleta de dulce">
     </div>
     <div class="carousel-item">
-      <img src="../img/b_gummies.png" class="d-block w-100" alt="imagen de gomitas">
+      <img src="../img/b_choc.png" class="d-block w-100" alt="mujer con paleta">
     </div>
   </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
      <!------------termina carrusel--------------->
-  
-     <main>
-       <section class="py-3">
-         <div class="container-fluid">
-           <div class="row">
-            <h2 class="text-center">Los antojos más exóticos</h2>
+<main>
+ <section class="py-3">
+  <div class="container-fluid">
+  <div class="row">
+  <h4 class="text-center">Los antojos más exóticos</h4>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/babyruth.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center">Chocolates Baby Ruth</h2>
-              <p>$135 MXN</p>
-            </article>
+    <article class="col-md-6 col-lg-3">
+     <img src="../img/productos/babyruth.png"class=" w-100 d-block" alt="caja con chocolates rellenos de cacahuate">
+      <h1 class="text-center">Chocolates Baby Ruth</h1>
+      <p class="text-center">$125 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+        </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/chetosB.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center">Cheetos Baked</h2>
-              <p>$125 MXN</p>
-            </article>
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/chetosC.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center">Cheetos Peanut</h2>
-              <p>$118 MXN</p>
-            </article>
+     <article class="col-md-6 col-lg-3">
+     <img src="../img/productos/chetosB.png"class=" w-100 d-block" alt="bolsa de cheetos horneados">
+      <h1 class="text-center">Cheetos Baked</h1>
+      <p class="text-center">$125 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+        </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/chetosF.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center">Cheetos Flamig Hot</h2>
-              <p>$125 MXN</p>
-            </article>
+     <article class="col-md-6 col-lg-3">
+     <img src="../img/productos/chetosC.png"class=" w-100 d-block" alt="bolsa de cheetos sabor cacahuate">
+      <h1 class="text-sm-start text-md-center text-lg-center">Cheetos Peanut</h1>
+      <p class="text-center">$118 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+        </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/crunch.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center">Crunch Fun size</h2>
-              <p>$100 MXN</p>
-            </article>
+     <article class="col-md-6 col-lg-3">
+     <img src="../img/productos/chetosF.png"class=" w-100 d-block" alt="bolsa de cheetos sabor picante">
+      <h1 class="text-sm-start text-md-center text-lg-center">Cheetos Flaming Hot</h1>
+      <p class="text-center">$125 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+        </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/doritosF.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Doritos Flaming Hot</h2>
-              <p>$80 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/crunch.png"class=" w-100 d-block">
+      <h1 class="text-center">Crunch Fun size</h1>
+      <p class="text-center">$100 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+     </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/doritosP.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Doritos Party size</h2>
-              <p>$180 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/doritosF.png"class=" w-100 d-block">
+      <h1 class="text-center"> Doritos Flaming Hot</h1>
+      <p class="text-center">$80 MXN</p>
+      <div class="d-grid gap-2">
+      <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/dr.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Caramelos Dr.Pepper</h2>
-              <p>$200 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/doritosP.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> Doritos Party size</h1>
+      <p class="text-center">$180 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/jellyC.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Jelly Belly Candy Corn</h2>
-              <p>$150 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/dr.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> Caramelos Dr.Pepper</h1>
+      <p class="text-center">$200 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/mm.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> M&M Pumpking</h2>
-              <p>$220 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/jellyC.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> Jelly Belly Candy Corn</h1>
+      <p class="text-center">$150 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/oreoCocoa.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Oreo Hot Cocoa</h2>
-              <p>$220 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/mm.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> M&M Pumpking</h1>
+      <p class="text-center">$220 MXN</p>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/rollups.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Roll ups Jolly Rancher</h2>
-              <p>$250 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/oreoCocoa.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> Oreo Hot Cocoa</h1>
+      <p class="text-center">$220 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/sour.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Sour Patch</h2>
-              <p>$100 MXN</p>
-            </article>
+      <article class="col-md-6 col-lg-3">
+      <img src="../img/productos/rollups.png"class=" w-100 d-block">
+      <h1 class="text-sm-start text-md-center text-lg-center"> Roll ups Jolly Rancher</h1>
+      <p class="text-center">$250 MXN</p>
+        <div class="d-grid gap-2">
+        <button class="btn btn-light" type="button">Comprar</button>
+      </article>
 
-            <article class="col-md-6 col-lg-3">
-              <img src="../img/productos/werthers.png"class=" w-100 d-block">
-              <h2 class="text-sm-start text-md-center text-lg-center"> Werthers Original</h2>
-              <p>$245 MXN</p>
-            </article>
-          </div>
-          </div>
-        </section>
-         </main>
+      <article class="col-md-6 col-lg-3">
+       <img src="../img/productos/sour.png"class=" w-100 d-block">
+       <h1 class="text-sm-start text-md-center text-lg-center"> Sour Patch</h1>
+        <p class="text-center">$100 MXN</p>
+         <div class="d-grid gap-2">
+         <button class="btn btn-light" type="button">Comprar</button>    
+       </article>
+
+        <article class="col-md-6 col-lg-3">
+        <img src="../img/productos/werthers.png"class=" w-100 d-block">
+        <h1 class="text-sm-start text-md-center text-lg-center"> Werthers Original</h1>
+        <p class="text-center">$245 MXN</p>
+          <div class="d-grid gap-2">
+          <button class="btn btn-light" type="button">Comprar</button>
+        </article>
+
+    </div>
+   </div>
+ </section>
+</main>
 
 
     <script src="js/bootstrap.min.js"></script>

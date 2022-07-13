@@ -4,15 +4,16 @@ html{
 	font-size: 62.5%;
 }
 h1{
-	color: #ed458d;
-	font-size: 4rem;
-	font-weight: 500;
+	color: #051252;
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 h2{
-	color: deepskyblue;
-	font-size: 3rem;
-	font-weight: 400;
+	color: #0FE0F9
+;
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 h3{
 	color: #ed458d;
@@ -22,7 +23,7 @@ h3{
 p{
 	color: black;
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-weight: 300;
 }
 
@@ -33,9 +34,10 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+
 h4 {
-	color: deepskyblue;
-	font-size: 2rem;
+	color: #ed458d;
+	font-size: 2.3rem;
 	font-weight: 200;
     font-family: 'Pacifico', cursive;
 ;
@@ -43,11 +45,26 @@ h4 {
 }
 h5{
 	color: white;
-	font-size: 2.5 rem;
+	font-size: 2.5rem;
 	font-weight: 200px;
-    font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+h6{
+	color: white;
+	font-size: 3rem;
+	font-weight: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 50px;
+    padding-left: 50px;
+
 }
 
+.p-white{
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+	font-family: 'Pacifico', cursive;
+}
 
 .bg-nav{
 	background-color: white;
@@ -71,6 +88,7 @@ footer img{
 	width: 5%;
 }
 
+
 .bg-img--1{
 	background-image:  url(../img/links/linkDulce.jpg);
 	width: auto;
@@ -91,36 +109,14 @@ footer img{
 
 }
 
+
+
+
 /*animaciones primeros links*/
 
 
 
-.marca {
-  position:relative;
-}
-.segunda {
-  position:absolute;top:0;left:50%;opacity:0; 
-  -webkit-transition: opacity 1s ease-in-out;
-  transform: translateX(-50%);
-  
-}
-.primera {
-  display: block;
-  margin: auto;
-  opacity:1; -webkit-transition: opacity 1s ease-in-out;
-}
-.segunda:hover {
-  opacity:1;
-}
-.primera:hover {
-  opacity:0;
-}
 
-
-.img-contacto{
-	width: 100%;
-	position: sticky;
-}
 
 footer{
 	padding: 30px;
@@ -133,3 +129,30 @@ footer{
 footer img{
 	max-width: 30px;
 }
+
+/*nosotros*/
+
+#nosotros{
+	align-content: center;
+	align-items: center;
+}
+
+ #nosotros {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 300% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
